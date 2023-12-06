@@ -25,8 +25,10 @@ class Menu {
                     return
                 case 1: // 보조메뉴1 구현 조건부
                     printBurgerMenu()
-                case 2: // 보조메뉴2 구현 조건부
+                case 2: // 보조메뉴2 FrozenCustard 구현부
                     printFrozenCustardMenu()
+            //  case 3: // 보조메뉴3 Drinks
+            //  case 4: // 보조메뉴3 Beer
                 default :
                     print("메뉴를 선택해주세요.")
                 }
@@ -35,7 +37,7 @@ class Menu {
             }
         }
     }
-    // 보조메뉴1 구현 함수
+    // 보조메뉴1 구현 함수 혹은 class로 구현 필요
     func printBurgerMenu() {
         while true {
             print("[ Burgers MENU ]")
@@ -60,7 +62,7 @@ class Menu {
             }
         }
     }
-    // 보조메뉴2 구현 함수
+    // 보조메뉴2 구현 함수 혹은 class로 구현 필요
      func printFrozenCustardMenu() {
          while true {
              print("[ FrozenCustard MENU ]")
