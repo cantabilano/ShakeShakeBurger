@@ -7,7 +7,7 @@
 
 import Foundation
 
-// MARK: 주메뉴 구현 class
+// MARK: 주메뉴 구현 class 구현되나요~~~~~~~~~~ 해봅시다.
 class Menu {
     func printMainMenu() {
         while true {
