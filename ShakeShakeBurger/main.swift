@@ -86,11 +86,22 @@ class Menu {
              print("0. 뒤로가기      | 뒤로가기")
              
              if let input = Int(readLine() ?? "") {
-                 if input == 0 { //if문으로 세부메뉴 구현
+                 switch input { //switch 문으로 세부메뉴 구현
+                 case 0 :
                      print("메인 메뉴로 이동합니다.")
-                     break
-                 } else {
-                     print("선택한 메뉴: \(input)")
+                     return
+                 case 1 :
+                     print("1.  FrozenCustard1   | W 6.9 | 토마토, 양상추, 쉑소스가 토핑된 치즈버거")
+                 case 2 :
+                     print("2.  FrozenCustard2   | W 8.9 | 베이컨, 체리 페퍼에 쉑소스가 토핑된 치즈버거")
+                 case 3 :
+                     print("3.  FrozenCustard3   | W 9.4 | 몬스터 치즈와 체다 치즈로 속을 채운 베지테리안 버거")
+                 case 4 :
+                     print("4.  FrozenCustard4   | W 6.9 | 포테이토 번과 비프패티, 치즈가 토핑된 치즈버거")
+                 case 5 :
+                     print("5.  FrozenCustard5   | W 5.4 | 비프패티를 기반으로 야채가 들어간 기본버거")
+                 default :
+                     print("메뉴번호를 콘솔창에 적어주세요.")
                  }
              } else {
                  print("error: 숫자를 적어주세요.")
